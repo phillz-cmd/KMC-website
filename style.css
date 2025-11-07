@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    background: #0fa05d;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+    margin-right: 10px;
+}
+
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0, 255, 133, 0.4), rgba(0, 128, 64, 0.6)),
+    url("https://images.unsplash.com/photo-1584467735871-1f6c62ea4f3c") center/cover;
+    text-align: center;
+    padding: 90px 10px;
+    color: white;
+}
+
+/* SERVICES */
+.services {
+    text-align: center;
+    padding: 40px 10%;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 180px;
+    padding: 20px;
+    background: #e8f9f0;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.service-icon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+    padding: 50px;
+    background: #0fa05d;
+    color: white;
+}
+
+.btn {
+    background: white;
+    padding: 12px 25px;
+    border-radius: 6px;
+    color: #0fa05d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: #044a2b;
+    padding: 12px;
+    text-align: center;
+    color: white;
+}
